@@ -19,11 +19,15 @@
 <img src="https://skillicons.dev/icons?i=javascript" width="55"/>
 <img src="https://skillicons.dev/icons?i=react" width="55"/>
 <img src="https://skillicons.dev/icons?i=nodejs" width="55"/>
+</p>
+<p>
 <img src="https://skillicons.dev/icons?i=express" width="55"/>
 <img src="https://skillicons.dev/icons?i=mongodb" width="55"/>
 <img src="https://skillicons.dev/icons?i=docker" width="55"/>
 <img src="https://skillicons.dev/icons?i=kubernetes" width="55"/>
 <img src="https://skillicons.dev/icons?i=aws" width="55"/>
+</p>
+<p>
 <img src="https://skillicons.dev/icons?i=git" width="55"/>
 <img src="https://skillicons.dev/icons?i=github" width="55"/>
 <img src="https://skillicons.dev/icons?i=html" width="55"/>
