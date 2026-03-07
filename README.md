@@ -1,4 +1,4 @@
-#💻 Sheharyar Ali
+# 💻 Sheharyar Ali
 ### 🚀 Full Stack Developer | AI Systems Builder
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00F7FF&width=600&lines=Full+Stack+Developer;AI+Systems+Builder;Cloud+%7C+DevOps+%7C+AI;Building+Intelligent+Systems"/>
