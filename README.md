@@ -1,4 +1,4 @@
-# Hi there👋,  I'm Sheharyar Ali
+I'm Sheharyar Ali
 
 ### 🚀 Full Stack Developer | AI Systems Builder
 
