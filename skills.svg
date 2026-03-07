@@ -1,0 +1,271 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @keyframes popIn {
+        0%   { opacity:0; transform:scale(.45) translateY(10px); }
+        65%  { transform:scale(1.07) translateY(-2px); }
+        100% { opacity:1; transform:scale(1) translateY(0); }
+      }
+      @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+      @keyframes pulse { 0%,100%{opacity:.8} 50%{opacity:1} }
+      @keyframes titleIn { from{opacity:0;transform:translateX(-20px)} to{opacity:1;transform:translateX(0)} }
+
+      .title { font-family:'Fira Code','Courier New',monospace; font-size:15px; font-weight:700; fill:#e6edf3;
+               animation: titleIn .5s ease-out .1s both; }
+      .lbl   { font-family:'Fira Code','Courier New',monospace; font-size:9.5px; fill:#6e7681; }
+
+      /* staggered pop — 18 skills, 80ms apart */
+      .s1  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .08s  both, pulse 3.8s ease-in-out .0s  infinite; }
+      .s2  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .16s  both, pulse 3.8s ease-in-out .2s  infinite; }
+      .s3  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .24s  both, pulse 3.8s ease-in-out .4s  infinite; }
+      .s4  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .32s  both, pulse 3.8s ease-in-out .6s  infinite; }
+      .s5  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .40s  both, pulse 3.8s ease-in-out .8s  infinite; }
+      .s6  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .48s  both, pulse 3.8s ease-in-out 1.0s infinite; }
+      .s7  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .56s  both, pulse 3.8s ease-in-out 1.2s infinite; }
+      .s8  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .64s  both, pulse 3.8s ease-in-out 1.4s infinite; }
+      .s9  { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .72s  both, pulse 3.8s ease-in-out 1.6s infinite; }
+      .s10 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .80s  both, pulse 3.8s ease-in-out 1.8s infinite; }
+      .s11 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .88s  both, pulse 3.8s ease-in-out 2.0s infinite; }
+      .s12 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) .96s  both, pulse 3.8s ease-in-out 2.2s infinite; }
+      .s13 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) 1.04s both, pulse 3.8s ease-in-out 2.4s infinite; }
+      .s14 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) 1.12s both, pulse 3.8s ease-in-out 2.6s infinite; }
+      .s15 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) 1.20s both, pulse 3.8s ease-in-out 2.8s infinite; }
+      .s16 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) 1.28s both, pulse 3.8s ease-in-out 3.0s infinite; }
+      .s17 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) 1.36s both, pulse 3.8s ease-in-out 3.2s infinite; }
+      .s18 { animation: popIn .42s cubic-bezier(.34,1.56,.64,1) 1.44s both, pulse 3.8s ease-in-out 3.4s infinite; }
+
+      .spin { animation: spin 13s linear infinite; transform-box:fill-box; transform-origin:center; }
+    </style>
+    <clipPath id="rr"><rect width="52" height="52" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Title -->
+  <text x="2" y="26" class="title">&lt;/&gt;  Skills</text>
+  <rect x="0" y="32" width="68" height="1.2" fill="#00b4d8" opacity=".35" rx="1"/>
+
+  <!--
+    Layout: step=90px, card=78×94px, icon-square=52×52 @ (13,10), label @ y=82
+    Row1 y=42  Row2 y=152  (9 per row)
+  -->
+
+  <!-- ══ ROW 1 ══ -->
+
+  <!-- Python -->
+  <g class="s1" transform="translate(0,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#3572A5" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#3572A5"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="18" fill="#fff" x="-12" y="7">Py</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Python</text>
+  </g>
+
+  <!-- C++ -->
+  <g class="s2" transform="translate(90,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#00599C" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#00599C"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="16" fill="#fff" x="-16" y="7">C++</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">C++</text>
+  </g>
+
+  <!-- JavaScript -->
+  <g class="s3" transform="translate(180,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#F7DF1E" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#F7DF1E"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="19" fill="#000" x="-12" y="7">JS</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">JavaScript</text>
+  </g>
+
+  <!-- React -->
+  <g class="s4" transform="translate(270,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#61DAFB" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#1a1a2e"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="monospace" font-size="28" fill="#61DAFB" x="-14" y="10">⚛</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">React</text>
+  </g>
+
+  <!-- Node.js -->
+  <g class="s5" transform="translate(360,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#339933" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#339933"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="13" fill="#fff" x="-17" y="6">Node</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Node.js</text>
+  </g>
+
+  <!-- Express -->
+  <g class="s6" transform="translate(450,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#444" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#2a2a2a"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="9" fill="#ddd" x="-18" y="4">Express</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Express</text>
+  </g>
+
+  <!-- MongoDB -->
+  <g class="s7" transform="translate(540,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#47A248" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#47A248"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="22" fill="#fff" x="-10" y="9">M</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">MongoDB</text>
+  </g>
+
+  <!-- Docker -->
+  <g class="s8" transform="translate(630,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#2496ED" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#2496ED"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-size="26" x="-15" y="10">🐳</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Docker</text>
+  </g>
+
+  <!-- Kubernetes -->
+  <g class="s9" transform="translate(720,42)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#326CE5" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#326CE5"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="14" fill="#fff" x="-13" y="7">K8s</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Kubernetes</text>
+  </g>
+
+  <!-- ══ ROW 2 ══ -->
+
+  <!-- AWS -->
+  <g class="s10" transform="translate(0,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#FF9900" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#232F3E"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="14" fill="#FF9900" x="-17" y="7">AWS</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">AWS</text>
+  </g>
+
+  <!-- Git -->
+  <g class="s11" transform="translate(90,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#F05032" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#F05032"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="15" fill="#fff" x="-14" y="7">Git</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Git</text>
+  </g>
+
+  <!-- GitHub -->
+  <g class="s12" transform="translate(180,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#6e7681" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#24292e"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-size="26" x="-15" y="10">🐙</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">GitHub</text>
+  </g>
+
+  <!-- HTML -->
+  <g class="s13" transform="translate(270,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#E34F26" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#E34F26"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="12" fill="#fff" x="-19" y="6">HTML</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">HTML</text>
+  </g>
+
+  <!-- CSS -->
+  <g class="s14" transform="translate(360,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#1572B6" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#1572B6"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="14" fill="#fff" x="-15" y="7">CSS</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">CSS</text>
+  </g>
+
+  <!-- Notion -->
+  <g class="s15" transform="translate(450,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#ffffff30" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#fff"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="24" fill="#000" x="-10" y="9">N</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Notion</text>
+  </g>
+
+  <!-- NumPy -->
+  <g class="s16" transform="translate(540,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#4DABCF" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#4DABCF"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="17" fill="#fff" x="-13" y="7">Np</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">NumPy</text>
+  </g>
+
+  <!-- Pandas -->
+  <g class="s17" transform="translate(630,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#e70488" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#e70488"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="17" fill="#fff" x="-12" y="7">Pd</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">Pandas</text>
+  </g>
+
+  <!-- n8n -->
+  <g class="s18" transform="translate(720,152)">
+    <rect width="78" height="92" rx="12" fill="#0d1117" stroke="#ea4b71" stroke-width="1.3"/>
+    <g transform="translate(13,10)"><g clip-path="url(#rr)">
+      <rect width="52" height="52" rx="12" fill="#ea4b71"/>
+      <g class="spin" transform="translate(26,26)">
+        <text font-family="'Fira Code',monospace" font-weight="700" font-size="16" fill="#fff" x="-16" y="7">n8n</text>
+      </g>
+    </g></g>
+    <text x="39" y="80" text-anchor="middle" class="lbl">n8n</text>
+  </g>
+
+</svg>
