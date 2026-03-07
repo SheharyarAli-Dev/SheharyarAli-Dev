@@ -1,0 +1,219 @@
+<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .section-title {
+        font-family: monospace;
+        font-size: 20px;
+        font-weight: bold;
+        fill: #ffffff;
+      }
+      .skill-label {
+        font-family: monospace;
+        font-size: 11px;
+        fill: #8b949e;
+      }
+      .pop-1  { animation: popIn 0.4s ease-out 0.1s both; }
+      .pop-2  { animation: popIn 0.4s ease-out 0.2s both; }
+      .pop-3  { animation: popIn 0.4s ease-out 0.3s both; }
+      .pop-4  { animation: popIn 0.4s ease-out 0.4s both; }
+      .pop-5  { animation: popIn 0.4s ease-out 0.5s both; }
+      .pop-6  { animation: popIn 0.4s ease-out 0.6s both; }
+      .pop-7  { animation: popIn 0.4s ease-out 0.7s both; }
+      .pop-8  { animation: popIn 0.4s ease-out 0.8s both; }
+      .pop-9  { animation: popIn 0.4s ease-out 0.9s both; }
+      .pop-10 { animation: popIn 0.4s ease-out 1.0s both; }
+      .pop-11 { animation: popIn 0.4s ease-out 1.1s both; }
+      .pop-12 { animation: popIn 0.4s ease-out 1.2s both; }
+      .pop-13 { animation: popIn 0.4s ease-out 1.3s both; }
+      .pop-14 { animation: popIn 0.4s ease-out 1.4s both; }
+      .pop-15 { animation: popIn 0.4s ease-out 1.5s both; }
+      .pop-16 { animation: popIn 0.4s ease-out 1.6s both; }
+      .pop-17 { animation: popIn 0.4s ease-out 1.7s both; }
+      .pop-18 { animation: popIn 0.4s ease-out 1.8s both; }
+      .spin { animation: rotateSlow 10s linear infinite; transform-box: fill-box; transform-origin: center; }
+      .glow { animation: glowBlink 3s ease-in-out infinite; }
+      @keyframes popIn {
+        0%   { opacity: 0; transform: scale(0.4); }
+        70%  { transform: scale(1.08); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+      @keyframes rotateSlow {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @keyframes glowBlink {
+        0%, 100% { opacity: 0.75; }
+        50%       { opacity: 1; }
+      }
+    </style>
+    <clipPath id="c0"><rect width="44" height="44" rx="10"/></clipPath>
+  </defs>
+
+  <text x="20" y="35" class="section-title">&lt;/&gt; Skills</text>
+
+  <!-- ROW 1 -->
+  <g class="pop-1 glow" transform="translate(20,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#3572A5" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#3572A5"/>
+      <g class="spin" transform="translate(22,22)"><text x="-10" y="7" font-size="16" fill="white" font-weight="bold" font-family="monospace">Py</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Python</text>
+  </g>
+
+  <g class="pop-2 glow" transform="translate(100,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#4DABCF" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#4DABCF"/>
+      <g class="spin" transform="translate(22,22)"><text x="-10" y="7" font-size="16" fill="white" font-weight="bold" font-family="monospace">Np</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">NumPy</text>
+  </g>
+
+  <g class="pop-3 glow" transform="translate(180,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#e70488" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#e70488"/>
+      <g class="spin" transform="translate(22,22)"><text x="-10" y="7" font-size="16" fill="white" font-weight="bold" font-family="monospace">Pd</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Pandas</text>
+  </g>
+
+  <g class="pop-4 glow" transform="translate(260,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#F05032" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#F05032"/>
+      <g class="spin" transform="translate(22,22)"><text x="-12" y="7" font-size="14" fill="white" font-weight="bold" font-family="monospace">Git</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Git</text>
+  </g>
+
+  <g class="pop-5 glow" transform="translate(340,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#2496ED" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#2496ED"/>
+      <g class="spin" transform="translate(22,22)"><text x="-12" y="9" font-size="22" font-family="monospace">🐳</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Docker</text>
+  </g>
+
+  <g class="pop-6 glow" transform="translate(420,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#326CE5" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#326CE5"/>
+      <g class="spin" transform="translate(22,22)"><text x="-10" y="7" font-size="13" fill="white" font-weight="bold" font-family="monospace">K8s</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Kubernetes</text>
+  </g>
+
+  <g class="pop-7 glow" transform="translate(500,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#00599C" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#00599C"/>
+      <g class="spin" transform="translate(22,22)"><text x="-13" y="7" font-size="14" fill="white" font-weight="bold" font-family="monospace">C++</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">C++</text>
+  </g>
+
+  <g class="pop-8 glow" transform="translate(580,50)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#F7DF1E" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#F7DF1E"/>
+      <g class="spin" transform="translate(22,22)"><text x="-10" y="7" font-size="15" fill="#000" font-weight="bold" font-family="monospace">JS</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">JavaScript</text>
+  </g>
+
+  <!-- ROW 2 -->
+  <g class="pop-9 glow" transform="translate(20,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#61DAFB" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#20232a"/>
+      <g class="spin" transform="translate(22,22)"><text x="-11" y="9" font-size="22" fill="#61DAFB" font-family="monospace">⚛</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">React</text>
+  </g>
+
+  <g class="pop-10 glow" transform="translate(100,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#339933" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#339933"/>
+      <g class="spin" transform="translate(22,22)"><text x="-14" y="7" font-size="12" fill="white" font-weight="bold" font-family="monospace">Node</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Node.js</text>
+  </g>
+
+  <g class="pop-11 glow" transform="translate(180,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#ea4b71" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#ea4b71"/>
+      <g class="spin" transform="translate(22,22)"><text x="-13" y="7" font-size="14" fill="white" font-weight="bold" font-family="monospace">n8n</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">n8n</text>
+  </g>
+
+  <g class="pop-12 glow" transform="translate(260,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#ffffff55" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#ffffff"/>
+      <g class="spin" transform="translate(22,22)"><text x="-7" y="8" font-size="18" fill="#000" font-weight="bold" font-family="monospace">N</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Notion</text>
+  </g>
+
+  <g class="pop-13 glow" transform="translate(340,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#FF9900" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#232F3E"/>
+      <g class="spin" transform="translate(22,22)"><text x="-15" y="7" font-size="12" fill="#FF9900" font-weight="bold" font-family="monospace">AWS</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">AWS</text>
+  </g>
+
+  <g class="pop-14 glow" transform="translate(420,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#E34F26" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#E34F26"/>
+      <g class="spin" transform="translate(22,22)"><text x="-16" y="7" font-size="11" fill="white" font-weight="bold" font-family="monospace">HTML</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">HTML</text>
+  </g>
+
+  <g class="pop-15 glow" transform="translate(500,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#1572B6" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#1572B6"/>
+      <g class="spin" transform="translate(22,22)"><text x="-13" y="7" font-size="13" fill="white" font-weight="bold" font-family="monospace">CSS</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">CSS</text>
+  </g>
+
+  <g class="pop-16 glow" transform="translate(580,145)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#47A248" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#47A248"/>
+      <g class="spin" transform="translate(22,22)"><text x="-8" y="8" font-size="18" fill="white" font-weight="bold" font-family="monospace">M</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">MongoDB</text>
+  </g>
+
+  <!-- ROW 3 -->
+  <g class="pop-17 glow" transform="translate(20,240)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#ffffff33" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#404040"/>
+      <g class="spin" transform="translate(22,22)"><text x="-15" y="7" font-size="9" fill="white" font-weight="bold" font-family="monospace">Express</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">Express</text>
+  </g>
+
+  <g class="pop-18 glow" transform="translate(100,240)">
+    <rect width="70" height="80" rx="12" fill="#161b22" stroke="#ffffff55" stroke-width="1.5"/>
+    <g transform="translate(13,8)" clip-path="url(#c0)">
+      <rect width="44" height="44" rx="10" fill="#24292e"/>
+      <g class="spin" transform="translate(22,22)"><text x="-12" y="9" font-size="22" font-family="monospace">🐙</text></g>
+    </g>
+    <text x="35" y="70" text-anchor="middle" class="skill-label">GitHub</text>
+  </g>
+
+</svg>
