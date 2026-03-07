@@ -1,0 +1,279 @@
+<svg width="860" height="360" viewBox="0 0 860 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes popIn {
+        0%   { opacity: 0; transform: scale(0.55) translateY(8px); }
+        65%  { transform: scale(1.06) translateY(-2px); }
+        100% { opacity: 1; transform: scale(1) translateY(0); }
+      }
+      @keyframes spinSlow {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @keyframes cardGlow {
+        0%, 100% { opacity: 0.85; }
+        50%       { opacity: 1; }
+      }
+
+      .title { font-family: 'Fira Code','Cascadia Code','Courier New',monospace; font-size:15px; font-weight:700; fill:#e6edf3; }
+      .lbl   { font-family: 'Fira Code','Cascadia Code','Courier New',monospace; font-size:10px; fill:#6e7681; }
+      .icon  { font-family: 'Fira Code','Cascadia Code','Courier New',monospace; font-weight:700; }
+
+      .c1  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  1) both, cardGlow 3.5s ease-in-out infinite; }
+      .c2  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  2) both, cardGlow 3.5s ease-in-out 0.3s infinite; }
+      .c3  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  3) both, cardGlow 3.5s ease-in-out 0.6s infinite; }
+      .c4  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  4) both, cardGlow 3.5s ease-in-out 0.9s infinite; }
+      .c5  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  5) both, cardGlow 3.5s ease-in-out 1.2s infinite; }
+      .c6  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  6) both, cardGlow 3.5s ease-in-out 1.5s infinite; }
+      .c7  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  7) both, cardGlow 3.5s ease-in-out 1.8s infinite; }
+      .c8  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  8) both, cardGlow 3.5s ease-in-out 2.1s infinite; }
+      .c9  { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s *  9) both, cardGlow 3.5s ease-in-out 2.4s infinite; }
+      .c10 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 10) both, cardGlow 3.5s ease-in-out 2.7s infinite; }
+      .c11 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 11) both, cardGlow 3.5s ease-in-out 3.0s infinite; }
+      .c12 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 12) both, cardGlow 3.5s ease-in-out 3.3s infinite; }
+      .c13 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 13) both, cardGlow 3.5s ease-in-out 3.6s infinite; }
+      .c14 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 14) both, cardGlow 3.5s ease-in-out 3.9s infinite; }
+      .c15 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 15) both, cardGlow 3.5s ease-in-out 4.2s infinite; }
+      .c16 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 16) both, cardGlow 3.5s ease-in-out 4.5s infinite; }
+      .c17 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 17) both, cardGlow 3.5s ease-in-out 4.8s infinite; }
+      .c18 { animation: popIn .45s cubic-bezier(.34,1.56,.64,1) calc(0.05s * 18) both, cardGlow 3.5s ease-in-out 5.1s infinite; }
+
+      .spin { animation: spinSlow 14s linear infinite; transform-box: fill-box; transform-origin: center; }
+    </style>
+
+    <!-- Clip to filled rounded square -->
+    <clipPath id="sq"><rect width="48" height="48" rx="11"/></clipPath>
+  </defs>
+
+  <!-- Section header -->
+  <text x="2" y="26" class="title">&lt;/&gt;  Skills</text>
+  <rect x="0" y="32" width="72" height="1" fill="#00b4d8" opacity="0.4" rx="1"/>
+
+  <!--
+    Grid: 9 columns × 2 rows + 2 orphans
+    Card width=80, gap=10  → step=90
+    Card: outer rect 76×92, icon square 48×48 centered (x+14,y+8), label at y+76
+    Row1 y=45, Row2 y=150, Row3 y=255
+  -->
+
+  <!-- ── ROW 1 ── -->
+
+  <!-- Python -->
+  <g class="c1" transform="translate(0,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#3572A5" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#3572A5"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-11" y="7" font-size="17" fill="#fff">Py</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Python</text>
+  </g>
+
+  <!-- NumPy -->
+  <g class="c2" transform="translate(86,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#4DABCF" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#4DABCF"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-11" y="7" font-size="17" fill="#fff">Np</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">NumPy</text>
+  </g>
+
+  <!-- Pandas -->
+  <g class="c3" transform="translate(172,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#e70488" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#e70488"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-11" y="7" font-size="17" fill="#fff">Pd</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Pandas</text>
+  </g>
+
+  <!-- Git -->
+  <g class="c4" transform="translate(258,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#F05032" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#F05032"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-13" y="7" font-size="15" fill="#fff">Git</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Git</text>
+  </g>
+
+  <!-- Docker -->
+  <g class="c5" transform="translate(344,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#2496ED" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#2496ED"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-14" y="9" font-size="24" fill="#fff">🐳</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Docker</text>
+  </g>
+
+  <!-- Kubernetes -->
+  <g class="c6" transform="translate(430,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#326CE5" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#326CE5"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-11" y="7" font-size="14" fill="#fff">K8s</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Kubernetes</text>
+  </g>
+
+  <!-- C++ -->
+  <g class="c7" transform="translate(516,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#00599C" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#00599C"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-14" y="7" font-size="15" fill="#fff">C++</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">C++</text>
+  </g>
+
+  <!-- JavaScript -->
+  <g class="c8" transform="translate(602,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#F7DF1E" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#F7DF1E"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-11" y="7" font-size="17" fill="#000">JS</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">JavaScript</text>
+  </g>
+
+  <!-- React -->
+  <g class="c9" transform="translate(688,45)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#61DAFB" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#20232a"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-13" y="9" font-size="24" fill="#61DAFB">⚛</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">React</text>
+  </g>
+
+  <!-- ── ROW 2 ── -->
+
+  <!-- Node.js -->
+  <g class="c10" transform="translate(0,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#339933" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#339933"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-16" y="7" font-size="13" fill="#fff">Node</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Node.js</text>
+  </g>
+
+  <!-- Express -->
+  <g class="c11" transform="translate(86,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#4a4a4a" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#333"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-17" y="7" font-size="10" fill="#fff">Express</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Express</text>
+  </g>
+
+  <!-- MongoDB -->
+  <g class="c12" transform="translate(172,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#47A248" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#47A248"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-9" y="9" font-size="20" fill="#fff">M</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">MongoDB</text>
+  </g>
+
+  <!-- AWS -->
+  <g class="c13" transform="translate(258,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#FF9900" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#232F3E"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-16" y="7" font-size="13" fill="#FF9900">AWS</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">AWS</text>
+  </g>
+
+  <!-- HTML -->
+  <g class="c14" transform="translate(344,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#E34F26" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#E34F26"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-18" y="7" font-size="12" fill="#fff">HTML</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">HTML</text>
+  </g>
+
+  <!-- CSS -->
+  <g class="c15" transform="translate(430,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#1572B6" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#1572B6"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-14" y="7" font-size="14" fill="#fff">CSS</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">CSS</text>
+  </g>
+
+  <!-- n8n -->
+  <g class="c16" transform="translate(516,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#ea4b71" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#ea4b71"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-14" y="7" font-size="15" fill="#fff">n8n</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">n8n</text>
+  </g>
+
+  <!-- Notion -->
+  <g class="c17" transform="translate(602,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#ffffff30" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#fff"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-9" y="9" font-size="20" fill="#000">N</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">Notion</text>
+  </g>
+
+  <!-- GitHub -->
+  <g class="c18" transform="translate(688,150)">
+    <rect width="76" height="90" rx="11" fill="#0d1117" stroke="#6e7681" stroke-width="1.2"/>
+    <g transform="translate(14,8)"><g clip-path="url(#sq)">
+      <rect width="48" height="48" rx="11" fill="#24292e"/>
+      <g class="spin" transform="translate(24,24)">
+        <text class="icon" x="-14" y="10" font-size="24" fill="#fff">🐙</text>
+      </g>
+    </g></g>
+    <text x="38" y="76" text-anchor="middle" class="lbl">GitHub</text>
+  </g>
+
+</svg>
