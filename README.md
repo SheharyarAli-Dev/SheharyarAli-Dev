@@ -7,10 +7,7 @@
 ---
 
 ## 👨‍💻 About Me
-
-* 🎓 CS Student at **FAST-NUCES, Islamabad**
-* 🔭 Currently building **LogSense-AI — AI powered log analysis platform**
-* 🌱 Exploring **AI Systems, Automation, DevOps & Cloud**
+* 🌱 Building **AI Systems, Automation, DevOps & Cloud**
 * ⚡ Passionate about **scalable backend systems**
 * 📫 Reach me: **[sheharyar.ali.job@gmail.com](mailto:sheharyar.ali.job@gmail.com)**
 
