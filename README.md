@@ -46,30 +46,9 @@
 
 ---
 
-# 📊 GitHub Stats
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SheharyarAli-Dev&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight&hide_border=true"/>
-
----
-
-# 🔗 Connect With Me
-
-<p align="center">
-
-<a href="https://linkedin.com/in/YOUR-LINKEDIN">
-<img src="https://skillicons.dev/icons?i=linkedin" width="60"/>
-</a>
 
     
 
-<a href="mailto:sheharyar.ali.job@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" width="60"/>
-</a>
 
-</p>
-
----
-
-<img src="https://github-profile-trophy.vercel.app/?username=SheharyarAli-Dev&theme=matrix&no-frame=true&row=1"/>
