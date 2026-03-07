@@ -1,136 +1,111 @@
-<h1 align="center">Hi 👋, I'm Sheharyar Ali</h1>
-<h3 align="center">🚀 Full Stack Developer | AI Systems Builder</h3>
+<h1>Hi 👋, I'm Sheharyar Ali</h1>
+<h3>🚀 Full Stack Developer | AI Systems Builder</h3>
 
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Systems+Builder;Python+%7C+JavaScript+%7C+Cloud+Engineer;Building+Intelligent+Systems" />
-
-</div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&width=600&lines=Full+Stack+Developer;AI+Systems+Builder;Python+%7C+JavaScript+%7C+Cloud;Building+Intelligent+Systems"/>
 
 ---
 
-# 👨‍💻 About Me
+## 👨‍💻 About Me
 
-- 🎓 CS Student at **FAST-NUCES, Islamabad**
-- 🔭 Currently building **LogSense-AI**
-- 🧠 Exploring **AI Systems, FastAPI & Cloud**
-- 🚀 Passionate about **Automation & Scalable Systems**
+- 🌱 Exploring **AI Systems, FastAPI, Automation**
+- ⚡ Interested in **Cloud, DevOps & Intelligent Systems**
 - 📫 Reach me: **sheharyar.ali.job@gmail.com**
 
 ---
 
-# 🛠️ Skills & Tech Stack
+# 🛠 Skills & Tech Stack
 
-<div align="center">
+<div style="display:flex; flex-wrap:wrap; gap:18px;">
 
-<table>
-<tr>
-
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=python" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=python" width="60"/>
 <br>Python
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=numpy" width="65"/>
+<div>
+<img src="/mnt/data/aa6e2db6-ddf3-4e38-afef-c74b45845733.png" width="60"/>
 <br>NumPy
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=pandas" width="65"/>
+<div>
+<img src="/mnt/data/f731e2f6-0ed0-4b27-ab51-b90c8dbe0248.png" width="60"/>
 <br>Pandas
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=git" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=git" width="60"/>
 <br>Git
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=github" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=github" width="60"/>
 <br>GitHub
-</td>
+</div>
 
-</tr>
-
-<tr>
-
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=docker" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=docker" width="60"/>
 <br>Docker
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=kubernetes" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=kubernetes" width="60"/>
 <br>Kubernetes
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=cpp" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=cpp" width="60"/>
 <br>C++
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=javascript" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=javascript" width="60"/>
 <br>JavaScript
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=react" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=react" width="60"/>
 <br>React
-</td>
+</div>
 
-</tr>
-
-<tr>
-
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nodejs" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=nodejs" width="60"/>
 <br>Node.js
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=mongodb" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=mongodb" width="60"/>
 <br>MongoDB
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=express" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=express" width="60"/>
 <br>Express
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=aws" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=aws" width="60"/>
 <br>AWS
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=html" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=html" width="60"/>
 <br>HTML
-</td>
+</div>
 
-</tr>
-
-<tr>
-
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=css" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=css" width="60"/>
 <br>CSS
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=notion" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=notion" width="60"/>
 <br>Notion
-</td>
+</div>
 
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=js" width="65"/>
+<div>
+<img src="https://skillicons.dev/icons?i=javascript" width="60"/>
 <br>n8n
-</td>
-
-</tr>
-
-</table>
+</div>
 
 </div>
 
@@ -138,36 +113,22 @@
 
 # 📊 GitHub Stats
 
-<div align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=SheharyarAli-Dev&show_icons=true&theme=tokyonight"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SheharyarAli-Dev&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight"/>
-
-</div>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight"/>
 
 ---
 
 # 🔗 Connect With Me
 
-<div align="center">
-
 <a href="https://linkedin.com/in/YOUR-LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=linkedin" width="48"/>
 </a>
 
 <a href="mailto:sheharyar.ali.job@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=gmail" width="48"/>
 </a>
-
-</div>
 
 ---
 
-# ⚡ Fun Animation
-
-<div align="center">
-
 <img src="https://github-profile-trophy.vercel.app/?username=SheharyarAli-Dev&theme=matrix&no-frame=true&row=1"/>
-
-</div>
