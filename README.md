@@ -4,9 +4,9 @@
 ---
 
 ## 👨‍💻 About Me
-🌱 Exploring AI Systems, FastAPI, Automation
-⚡ Interested in Cloud, DevOps & Intelligent Systems
-📫 Reach me: sheharyar.ali.job@gmail.com
+
+- 🌱 Building **AI Systems, Automation & WebApps**
+- 📫 Reach me: **sheharyar.ali.job@gmail.com**
 
 ---
 
@@ -19,15 +19,11 @@
 <img src="https://skillicons.dev/icons?i=javascript" width="55"/>
 <img src="https://skillicons.dev/icons?i=react" width="55"/>
 <img src="https://skillicons.dev/icons?i=nodejs" width="55"/>
-</p>
-<p>
 <img src="https://skillicons.dev/icons?i=express" width="55"/>
 <img src="https://skillicons.dev/icons?i=mongodb" width="55"/>
 <img src="https://skillicons.dev/icons?i=docker" width="55"/>
 <img src="https://skillicons.dev/icons?i=kubernetes" width="55"/>
 <img src="https://skillicons.dev/icons?i=aws" width="55"/>
-</p>
-<p>
 <img src="https://skillicons.dev/icons?i=git" width="55"/>
 <img src="https://skillicons.dev/icons?i=github" width="55"/>
 <img src="https://skillicons.dev/icons?i=html" width="55"/>
@@ -40,7 +36,7 @@
 
 # 📊 GitHub Stats
 
-![Sheharyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=SheharyarAli-Dev&show_icons=true&theme=tokyonight&cache_seconds=86400)
+![Sheharyar's GitHub stats](https://github-readme-stats.vercel.app/api?username=SheharyarAli-Dev&show_icons=true&theme=tokyonight)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight)
 
