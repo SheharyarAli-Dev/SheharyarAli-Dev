@@ -1,120 +1,115 @@
 # Syed Sheharyar Ali
 ### 🚀 Full Stack Developer | AI Systems Builder | Cloud & DevOps
 
-<div align="center">
-
-<a href="https://github.com/SheharyarAli-Dev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%7C+AI+Systems+Builder;AI+Engineering+%26+Autonomous+Agents;Cloud+Native+%7C+DevOps+%7C+CI%2FCD;Building+Intelligent+Systems" alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheharyar-ali-dev)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Sheharyar.Ali.job@gmail.com)
-[![Live Demos](https://img.shields.io/badge/Live_Demos-00F7FF?style=for-the-badge&logo=streamlit&logoColor=black)](https://drone-path-planning.streamlit.app/)
-[![FAST NUCES](https://img.shields.io/badge/FAST_NUCES-BS_Software_Eng-1f425f?style=for-the-badge)](https://isb.nu.edu.pk/)
-
-</div>
-
 ---
 
 ## 👨‍💻 About Me
 
-* 🌱 Building **AI Systems, Autonomous Agents, DevOps & Cloud Infrastructure**
-* 🎓 **BS Software Engineering** @ **FAST NUCES Islamabad** (2023 - 2027)
-* ⚡ Passionate about **scalable backend microservices & AI log analytics engines**
-* 📫 Reach me: **[sheharyar.ali.job@gmail.com](mailto:sheharyar.ali.job@gmail.com)**
-
-```json
-{
-  "developer": "Syed Sheharyar Ali",
-  "degree": "BS Software Engineering",
-  "focus": ["AI Engineering", "Cloud & DevOps", "Distributed Systems"],
-  "status": "Architecting Autonomous AI & Swarm Execution Systems 🚀"
-}
-```
+- 🎓 **BS Software Engineering** @ **FAST NUCES Islamabad** (2023 - 2027)
+- 🧠 **AI Engineering:** Designing autonomous agent workflows, machine learning models, and real-time log diagnosis engines.
+- ☁️ **Cloud & DevOps:** Containerizing scalable microservices with Docker/Kubernetes and establishing automated multi-stage CI/CD pipelines.
+- ⚡ **System Core:** Implementing Dijkstra & A* pathfinding matrix computation, distributed APIs, and executive data analytics dashboards.
+- 📫 **Contact:** [sheharyar.ali.job@gmail.com](mailto:sheharyar.ali.job@gmail.com) | [LinkedIn](https://www.linkedin.com/in/sheharyar-ali-dev)
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🛠️ Technical Skills
 
-<div align="center">
-
-### 🤖 AI Engineering & Backend
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,js,nodejs,express,fastapi" />
-</p>
-
-### ☁️ Cloud, DevOps & Databases
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,githubactions,mongodb,linux,git" />
-</p>
-
-### 💻 Frontend & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=react,html,css,streamlit,vscode" />
-</p>
-
-</div>
-
----
-
-## 🚀 Featured Showcase Projects
-
-### 🤖 Agent Sentinel Prototype
-> **AI-Native Security Platform** building autonomous agents for vulnerability evaluation, system monitoring, and automated threat classification.
-* **Tech:** Python, LLM Agent Frameworks, Automated Workflows
-* 🔗 **Repository:** [SheharyarAli-Dev/Agent-Sentinel-Prototype](https://github.com/SheharyarAli-Dev/Agent-Sentinel-Prototype)
-
----
-
-### 🛸 Drone Path Planning Optimizer
-> Autonomous drone navigation on a 2D grid using **Dijkstra & A* algorithms** with NumPy cost matrix computations and spatial search.
-* **Tech:** Python, NumPy, Matplotlib, Streamlit
-* 🔗 **Repository:** [SheharyarAli-Dev/Drone-Path-Planning](https://github.com/SheharyarAli-Dev/Drone-Path-Planning) | 🌐 **Live Demo:** [drone-path-planning.streamlit.app](https://drone-path-planning.streamlit.app/)
-
----
-
-### 🔍 AI Log Analyzer Platform
-> AI-powered log analysis platform detecting system errors, incident classifications, root cause identification, and telemetry dashboards.
-* **Tech:** FastAPI, Python, Machine Learning, Web Analytics Dashboard
-* 🔗 **Repository:** [SheharyarAli-Dev/AI-Log-Analyzer](https://github.com/SheharyarAli-Dev/AI-Log-Analyzer) | 🌐 **Live Demo:** [ai-powered-log-analyzer.netlify.app](https://ai-powered-log-analyzer.netlify.app/)
+<table border="0">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🤖 AI & Backend</h4>
+      <ul>
+        <li>Python</li>
+        <li>FastAPI</li>
+        <li>Node.js / Express</li>
+        <li>C++</li>
+        <li>NumPy</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>☁️ Cloud & DevOps</h4>
+      <ul>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>GitHub Actions</li>
+        <li>AWS</li>
+        <li>Linux (Ubuntu)</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>💻 Frontend & Database</h4>
+      <ul>
+        <li>React</li>
+        <li>JavaScript</li>
+        <li>Streamlit</li>
+        <li>MongoDB</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📈 E-Commerce Executive Analytics
-> Automated business intelligence system converting raw telemetry into executive strategic insights using predictive modeling & automated ETL.
-* **Tech:** Python, Machine Learning, LLM-Integrated Analytics
-* 🔗 **Repository:** [SheharyarAli-Dev/Ecommerce-Dashboard](https://github.com/SheharyarAli-Dev/Ecommerce-Dashboard)
+## 📌 Featured Projects
 
----
-
-### ⚙️ Automated Software Development Lifecycle (SDLC) Pipeline
-> Engineered a full-stack Node.js/MongoDB application with a 7-workflow CI/CD pipeline using GitHub Actions for automated deployment to Vercel.
-* **Tech:** Node.js, Express, MongoDB, Docker, GitHub Actions, Vercel
-* 🔗 **Repository:** [SheharyarAli-Dev/CICD-Pipeline-Implementation](https://github.com/SheharyarAli-Dev/CICD-Pipeline-Implementation)
-
----
-
-### 📦 Dockerized Vault Application (3-Layer Testing)
-> Containerized Node.js CRUD vault application with MongoDB, feature branch workflows, unit test suites, and GitHub Pages documentation deployment.
-* **Tech:** Node.js, Express, MongoDB, Docker Compose, Git Workflow
-* 🔗 **Repository:** [SheharyarAli-Dev/Project-DevOps](https://github.com/SheharyarAli-Dev/Project-DevOps)
+<table border="0">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 Agent Sentinel Prototype</h3>
+      <p><b>Focus:</b> AI Native Security & LLM Agents</p>
+      <p>AI-native security platform building autonomous agents for vulnerability evaluation, system monitoring, and threat classification.</p>
+      <p>🔗 <a href="https://github.com/SheharyarAli-Dev/Agent-Sentinel-Prototype">GitHub Repository</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛸 Drone Path Planning Optimizer</h3>
+      <p><b>Focus:</b> Dijkstra & A* Algorithms</p>
+      <p>Autonomous drone navigation simulation on a 2D grid using cost matrix computations built with NumPy.</p>
+      <p>🔗 <a href="https://github.com/SheharyarAli-Dev/Drone-Path-Planning">GitHub Repository</a> | 🌐 <a href="https://drone-path-planning.streamlit.app/">Live Demo</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔍 AI Log Analyzer Platform</h3>
+      <p><b>Focus:</b> FastAPI & DevOps ML</p>
+      <p>AI-powered log analysis platform detecting system errors, incident classifications, root cause identification, and interactive dashboards.</p>
+      <p>🔗 <a href="https://github.com/SheharyarAli-Dev/AI-Log-Analyzer">GitHub Repository</a> | 🌐 <a href="https://ai-powered-log-analyzer.netlify.app/">Live Demo</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 E-Commerce Executive Analytics</h3>
+      <p><b>Focus:</b> ETL Pipeline & Predictive ML</p>
+      <p>Automated business intelligence system turning raw telemetry into executive strategic insights using predictive modeling.</p>
+      <p>🔗 <a href="https://github.com/SheharyarAli-Dev/Ecommerce-Dashboard">GitHub Repository</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚙️ Automated SDLC Pipeline</h3>
+      <p><b>Focus:</b> CI/CD & Vercel Deployment</p>
+      <p>Engineered Node.js/MongoDB application with a 7-workflow CI/CD pipeline using GitHub Actions for automated deployment.</p>
+      <p>🔗 <a href="https://github.com/SheharyarAli-Dev/CICD-Pipeline-Implementation">GitHub Repository</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📦 Containerized Vault Application</h3>
+      <p><b>Focus:</b> Docker Compose & 3-Layer Testing</p>
+      <p>Containerized Node.js CRUD vault application with MongoDB, sorting, export backup, unit testing, and GitHub Pages integration.</p>
+      <p>🔗 <a href="https://github.com/SheharyarAli-Dev/Project-DevOps">GitHub Repository</a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📜 Certifications
 
-* 🛡️ **MongoDB Fundamentals** — *MongoDB University*
-* ⚡ **NodeJS Fundamentals** — *Node.js Training*
+- 🛡️ **MongoDB Fundamentals** — *MongoDB University* ([Verify](https://university.mongodb.com/))
+- ⚡ **NodeJS Fundamentals** — *Node.js Training* ([Verify](https://nodejs.org/))
 
 ---
 
-<div align="center">
+## 📬 Contact & Links
 
-### 📫 Connect & Collaborate
-
-[![Gmail](https://img.shields.io/badge/Gmail-Sheharyar%20Ali-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Sheharyar.Ali.job@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sheharyar%20Ali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheharyar-ali-dev)
-
-</div>
+- **Email:** [sheharyar.ali.job@gmail.com](mailto:sheharyar.ali.job@gmail.com)
+- **LinkedIn:** [linkedin.com/in/sheharyar-ali-dev](https://www.linkedin.com/in/sheharyar-ali-dev)
+- **GitHub:** [github.com/SheharyarAli-Dev](https://github.com/SheharyarAli-Dev)
