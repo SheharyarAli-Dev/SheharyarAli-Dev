@@ -28,7 +28,6 @@
 * 🌱 Building **AI Systems, Automation, DevOps & Cloud**
 * 🎓 **BS Software Engineering** @ **FAST NUCES Islamabad** (2023 – 2027)
 * ⚡ Passionate about **scalable backend systems & autonomous AI agents**
-* 🔭 Currently building **AI Risk Gatekeeper** — a middleware that intercepts and scores AI agent actions for risk before execution
 * 📫 Reach me: **[sheharyar.ali.job@gmail.com](mailto:sheharyar.ali.job@gmail.com)**
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:7000ff,100:0d1117&height=3&width=100%25" width="100%"/>
@@ -41,16 +40,11 @@
 
 <br/><br/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<img src="https://github-readme-stats-ruddy-nine-35.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9&cache_seconds=86400" width="100%" alt="Top Languages" />
-</td>
-<td width="50%" valign="top">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SheharyarAli-Dev&theme=react-dark&hide_border=true&bg_color=0d1117&color=00f7ff&line=00f7ff&point=ffffff" width="100%" alt="Commit Activity Graph" />
-</td>
-</tr>
-</table>
+<img src="https://github-readme-stats-ruddy-nine-35.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9&cache_seconds=86400" width="60%" alt="Top Languages" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SheharyarAli-Dev&theme=react-dark&hide_border=true&bg_color=0d1117&color=00f7ff&line=00f7ff&point=ffffff&height=300" width="90%" alt="Commit Activity Graph" />
 
 </div>
 
