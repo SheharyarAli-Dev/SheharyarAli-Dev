@@ -37,12 +37,12 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SheharyarAli-Dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9" width="49%" alt="GitHub Stats" />
+<img src="https://github-readme-stats-ruddy-nine-35.vercel.app/api?username=SheharyarAli-Dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=c9d1d9&cache_seconds=86400" width="49%" alt="GitHub Stats" />
 <img src="https://streak-stats.demolab.com?user=SheharyarAli-Dev&theme=tokyonight&hide_border=true&background=0d1117&ring=00f7ff&fire=00f7ff&currStreakLabel=00f7ff" width="49%" alt="GitHub Streak" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9" width="49%" alt="Top Languages" />
+<img src="https://github-readme-stats-ruddy-nine-35.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9&cache_seconds=86400" width="49%" alt="Top Languages" />
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=SheharyarAli-Dev&theme=react-dark&hide_border=true&bg_color=0d1117&color=00f7ff&line=00f7ff&point=ffffff" width="49%" alt="Commit Activity Graph" />
 
 </div>
@@ -65,25 +65,46 @@
 
 <div align="center">
 
-**Languages**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,cpp,javascript,typescript" />
+<marquee behavior="scroll" direction="left" scrollamount="6">
+&nbsp;&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=python" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=cpp" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=javascript" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=typescript" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=react" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=nextjs" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=html" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=css" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=tailwind" height="60"/>&nbsp;&nbsp;
+</marquee>
 
-**Frontend & Frameworks**
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind" />
 
-**Backend**
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,django" />
+<marquee behavior="scroll" direction="right" scrollamount="6">
+&nbsp;&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=nodejs" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=express" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=fastapi" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=django" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=mongodb" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=mysql" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=postgres" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=sqlite" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=redis" height="60"/>&nbsp;&nbsp;
+</marquee>
 
-**Databases**
 <br/>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite,redis" />
 
-**Cloud, DevOps & Tools**
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,git,github,linux" />
+<marquee behavior="scroll" direction="left" scrollamount="6">
+&nbsp;&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=aws" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=docker" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=kubernetes" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=githubactions" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=git" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=github" height="60"/>&nbsp;&nbsp;
+<img src="https://skillicons.dev/icons?i=linux" height="60"/>&nbsp;&nbsp;
+</marquee>
 
 </div>
 
