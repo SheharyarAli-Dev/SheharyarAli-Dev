@@ -42,14 +42,16 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="middle" align="center">
 <img src="https://streak-stats.demolab.com?user=SheharyarAli-Dev&theme=tokyonight&hide_border=true&background=0d1117&ring=00f7ff&fire=00f7ff&currStreakLabel=00f7ff" width="100%" alt="GitHub Streak" />
 </td>
-<td width="50%" valign="top">
-<img src="https://github-readme-stats-ruddy-nine-35.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9&cache_seconds=86400" width="100%" alt="Top Languages" />
+<td width="50%" valign="middle" align="center">
+<img src="https://github-readme-stats-ruddy-nine-35.vercel.app/api/top-langs/?username=SheharyarAli-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&text_color=c9d1d9&cache_seconds=86400&card_width=320" alt="Top Languages" />
 </td>
 </tr>
 </table>
+
+<br/>
 
 </div>
 
