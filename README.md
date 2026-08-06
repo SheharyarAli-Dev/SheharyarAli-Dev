@@ -8,10 +8,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%7C+AI+Systems+Builder;AI+Engineering+%26+Autonomous+Agents;Cloud+Native+%7C+DevOps+%7C+CI%2FCD;Building+Intelligent+Systems" alt="Typing SVG" />
 </a>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=SheharyarAli-Dev&label=Profile%20Views&color=00f7ff&style=for-the-badge" alt="Profile Views"/>
-
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheharyar-ali-dev)
@@ -28,6 +24,7 @@
 * 🌱 Building **AI Systems, Automation, DevOps & Cloud**
 * 🎓 **BS Software Engineering** @ **FAST NUCES Islamabad** (2023 – 2027)
 * ⚡ Passionate about **scalable backend systems & autonomous AI agents**
+* 🔭 Currently building **AI Risk Gatekeeper** — a middleware that intercepts and scores AI agent actions for risk before execution
 * 📫 Reach me: **[sheharyar.ali.job@gmail.com](mailto:sheharyar.ali.job@gmail.com)**
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:7000ff,100:0d1117&height=3&width=100%25" width="100%"/>
@@ -117,16 +114,6 @@
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00f7ff,100:0d1117&height=3&width=100%25" width="100%"/>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="./trophy.svg" alt="GitHub Trophies" width="100%" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:7000ff,100:0d1117&height=3&width=100%25" width="100%"/>
 
 <div align="center">
 
